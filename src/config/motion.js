@@ -56,12 +56,14 @@ export const headContentAnimation = {
     type: "spring",
     damping: 7,
     stiffness: 30,
-    restDelta: 0.001,
+    restDelta: 0.001,            
     duration: 0.6,
     delay: 0.2,
     delayChildren: 0.2,
   },
 };
+
+// animation
 
 export const headContainerAnimation = {
   initial: { x: -100, opacity: 0, transition: { ...transition, delay: 0.5 } },
